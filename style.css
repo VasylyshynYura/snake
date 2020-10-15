@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.field{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10 , 1fr);
+    width: 550px;
+    height: 550px;
+}
+.area{
+    margin: 2px;
+    background-color: white ;
+    border: 1px solid black;
+}
+
+.food{
+    background-color:red ;
+
+}
+.snake{
+    background-color: black;
+}
+button{
+    height: 20px;
+}
